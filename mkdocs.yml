@@ -16,3 +16,8 @@ site_dir: 'docs'
 
 plugins:
     - search
+    - with-pdf:
+        author: Rafael Farias
+
+
+
