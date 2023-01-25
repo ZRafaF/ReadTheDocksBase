@@ -4,7 +4,7 @@ repo_url: https://github.com/ZRafaF/ReadTheDocksBase
 
 
 theme:
-    name: readthedocs
+    name: rtd-dropdown
     highlightjs: true
     hljs_languages:
         - cpp
@@ -18,6 +18,5 @@ plugins:
     - search
     - with-pdf:
         author: Rafael Farias
-
 
 

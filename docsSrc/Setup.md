@@ -28,6 +28,22 @@ plugins:
 Os parâmetros de configuração podem ser encontrados [aqui](https://github.com/orzih/mkdocs-with-pdf#configuration)
 
 O arquivo pode ser encontrado em 
-# [pdf](../pdf/document.pdf)
+### [pdf](../pdf/document.pdf)
+
+> **note**
 
 Seu path é `pdf/document.pdf`
+
+### Temas
+
+O tema escolhido para essa documentação é [mkdocs-rtd-dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown), este deve ser instalado manualmente.
+
+`pip install mkdocs-rtd-dropdown`
+
+Habilitando o tema no `mkdocs.yml`
+``` yml
+theme:
+    name: rtd-dropdown
+```
+
+Outro tema bastante completo e bonito é o [Materials for MkDocs](https://squidfunk.github.io/mkdocs-material/)

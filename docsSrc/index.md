@@ -24,3 +24,19 @@ Utilização básica com o ReadTheDocks pode ser vista [aqui](https://docs.readt
         ...       # Outras páginas de markDown, imagens e outros arquivos.
 
 
+## Temas
+
+[Documentação temas MkDocs](https://www.mkdocs.org/user-guide/choosing-your-theme/)
+
+Por padrão o MkDocs inclui os seguinte temas:
+1. mkdocs
+2. readthedocs
+
+Temas de terceiros podem ser instalados [aqui](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
+
+Para escolher um tema altere o arquivo `mkdocs.yml`
+```yml
+theme:
+    name: mkdocs
+    nav_style: dark
+```

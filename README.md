@@ -1,9 +1,6 @@
-Link para o site [https://zrafaf.github.io/ReadTheDocksBase/](https://zrafaf.github.io/ReadTheDocksBase/)
+## Link para o site [https://zrafaf.github.io/ReadTheDocksBase/](https://zrafaf.github.io/ReadTheDocksBase/)
 
 Para documentação completa visitar [mkdocs.org](https://www.mkdocs.org).
-
-## Configuração
-[https://www.mkdocs.org/user-guide/configuration/](https://www.mkdocs.org/user-guide/configuration/)
 
 ## Comandos
 
@@ -13,3 +10,12 @@ Utilização básica com o ReadTheDocks pode ser vista [aqui](https://docs.readt
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
+
+## Dependências
+
+Este projeto faz uso das seguintes dependências
+
+1. [mkdocs-with-pdf](https://github.com/orzih/mkdocs-with-pdf) Para gerar um PDF da documentação automaticamente.
+2. [mkdocs-rtd-dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown) Tema de terceiro.
+
+Para mais informações sobre instalação ver [documentação](https://zrafaf.github.io/ReadTheDocksBase/Setup/#instalando-dependencias)
