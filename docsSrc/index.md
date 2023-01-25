@@ -2,6 +2,9 @@
 
 Para documentação completa visitar [mkdocs.org](https://www.mkdocs.org).
 
+## Configuração
+[https://www.mkdocs.org/user-guide/configuration/](https://www.mkdocs.org/user-guide/configuration/)
+
 ## Comandos
 
 Utilização básica com o ReadTheDocks pode ser vista [aqui](https://docs.readthedocs.io/en/stable/intro/getting-started-with-mkdocs.html)

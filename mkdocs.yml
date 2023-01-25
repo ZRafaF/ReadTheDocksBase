@@ -1,4 +1,7 @@
-site_name: My Docs
+site_name: Projeto base
+
+repo_url: https://github.com/ZRafaF/ReadTheDocksBase
+
 
 theme:
     name: readthedocs
@@ -7,3 +10,6 @@ theme:
         - cpp
         - md
     locale: pt_BR
+
+docs_dir: 'docsSrc'
+site_dir: 'docs'
