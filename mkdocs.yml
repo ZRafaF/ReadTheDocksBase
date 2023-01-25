@@ -2,14 +2,13 @@ site_name: Projeto base
 
 repo_url: https://github.com/ZRafaF/ReadTheDocksBase
 
-
 theme:
     name: material
+
     palette:
         scheme: slate
         primary: indigo
         accent: indigo
-
 
     locale: pt_BR
     features:
@@ -27,21 +26,27 @@ theme:
         - content.code.copy
 
 
-
-
-
-
 docs_dir: 'docsSrc'
 site_dir: 'docs'
 
 plugins:
-    - search
+    - search:
+        separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
     - with-pdf:
         author: Rafael Farias
     - pdf-export
 
-
 markdown_extensions:
-  - pymdownx.highlight:
-      use_pygments: true
-  - pymdownx.superfences
+    - pymdownx.highlight:
+        anchor_linenums: true
+        use_pygments: true
+        auto_title: true
+
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde

@@ -7,7 +7,7 @@ Para criar uma nova página deverá ser criado um novo documento `.md` na pasta 
 A itens e sub-itens é feita utilizando o `#` quanto maior a quantidade de *nested* `#` maior a subdivisão.
 
 Exemplo de sintaxe
-```markdown
+```md
 # Principal         <!-- Cria um novo tópico, não é recomendado a criação de mais de um tópico por página -->
 Esse texto está presente na pagina "Principal"
 
@@ -37,7 +37,7 @@ Alguma das funções estendidas também funcionam com o MkDocs, ver [Sintaxe est
 ### Código
 ` ``` ` Código vai aqui ` ``` `
 
-```
+``` cpp
 // Múltiplas linhas de código
 
 void max()
@@ -46,7 +46,9 @@ void max()
 }
 ```
 
-Também podemos indicar qual linguagem estamos utilizando, o *sintaxe highlighter* utilizado é o **highlight.js** a lista de linguas suportadas pode ser encontrada [aqui](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md).
+~~Também podemos indicar qual linguagem estamos utilizando, o *sintaxe highlighter* utilizado é o **highlight.js** a lista de linguas suportadas pode ser encontrada [aqui](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md).~~
+
+Linguas aceitas [https://pygments.org/languages/](https://pygments.org/languages/)
 
 ` ```cpp ` int main()... ` ``` `
 
@@ -54,7 +56,7 @@ Também podemos indicar qual linguagem estamos utilizando, o *sintaxe highlighte
 
 Tambem será necessário adicionar essa lingua extra "Extensão" ao arquivo `mkdocs.yml`
 
-```
+``` yaml
     hljs_languages:
         - cpp
         - md
@@ -110,7 +112,7 @@ ___
 
 A documentação oficial pode ser encontrada [aqui](https://www.mkdocs.org/user-guide/writing-your-docs/)
 
-* Exemplo de link para outra página da documentação `[Documentação utilizando MkDocs](./index.md)` [Documentação utilizando MkDocs](./index.md)
+* Exemplo de link para outra página da documentação `[Documentação utilizando MkDocs](../index.md)` [Documentação utilizando MkDocs](../index.md)
 
 
 * Exemplo de link para outro item `[sintaxe-básica](./Utilização.md#sintaxe-basica)` [sintaxe-básica](./Utilização.md#sintaxe-basica)
