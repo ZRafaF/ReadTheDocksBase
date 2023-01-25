@@ -13,3 +13,6 @@ theme:
 
 docs_dir: 'docsSrc'
 site_dir: 'docs'
+
+plugins:
+    - search

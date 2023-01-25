@@ -3,7 +3,8 @@
 Para documentação completa visitar [mkdocs.org](https://www.mkdocs.org).
 
 ## Configuração
-[https://www.mkdocs.org/user-guide/configuration/](https://www.mkdocs.org/user-guide/configuration/)
+
+Visitar [https://www.mkdocs.org/user-guide/configuration/](https://www.mkdocs.org/user-guide/configuration/) para informações sobre a configuração do `mkdocs.yml`
 
 ## Comandos
 
