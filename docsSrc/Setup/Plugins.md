@@ -1,21 +1,6 @@
-# MkDocs Setup
+# Plug-ins
 
-## Recomendações
-
-É recomendado criar um `venv` para este projeto
-`python -m venv venv`
-
-e para ativar
-`venv\Scripts\activate`
-
-## Instalando dependências
-
-MkDocs
-`pip install MkDocs`
-
-### Plug-ins
-
-mkdocs-with-pdf [repo](https://github.com/orzih/mkdocs-with-pdf)
+## mkdocs-with-pdf [repo](https://github.com/orzih/mkdocs-with-pdf)
 
 `pip install mkdocs-with-pdf`
 
@@ -27,10 +12,7 @@ plugins:
 
 Os parâmetros de configuração podem ser encontrados [aqui](https://github.com/orzih/mkdocs-with-pdf#configuration)
 
-O arquivo pode ser encontrado em 
-### [pdf](../pdf/document.pdf)
-
-> **note**
+O arquivo pode ser encontrado em baixado [aqui](https://github.com/ZRafaF/ReadTheDocksBase/raw/main/docs/pdf/document.pdf)
 
 Seu path é `pdf/document.pdf`
 

@@ -4,12 +4,32 @@ repo_url: https://github.com/ZRafaF/ReadTheDocksBase
 
 
 theme:
-    name: rtd-dropdown
-    highlightjs: true
-    hljs_languages:
-        - cpp
-        - md
+    name: material
+    palette:
+        scheme: slate
+        primary: indigo
+        accent: indigo
+
+
     locale: pt_BR
+    features:
+        - navigation.sections
+        - navigation.tabs
+        # - navigation.tabs.sticky      Faz com que a navigation tab esteja sempre visivel
+        - navigation.top
+        - navigation.tracking
+        - navigation.path
+        - navigation.indexes
+        - search.highlight
+        - search.share
+        - search.suggest
+        - toc.follow
+        - content.code.copy
+
+
+
+
+
 
 docs_dir: 'docsSrc'
 site_dir: 'docs'
@@ -18,5 +38,10 @@ plugins:
     - search
     - with-pdf:
         author: Rafael Farias
+    - pdf-export
 
 
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences

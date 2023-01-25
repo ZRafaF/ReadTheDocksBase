@@ -16,6 +16,6 @@ Utilização básica com o ReadTheDocks pode ser vista [aqui](https://docs.readt
 Este projeto faz uso das seguintes dependências
 
 1. [mkdocs-with-pdf](https://github.com/orzih/mkdocs-with-pdf) Para gerar um PDF da documentação automaticamente.
-2. [mkdocs-rtd-dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown) Tema de terceiro.
+2. [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) Tema de terceiro.
 
 Para mais informações sobre instalação ver [documentação](https://zrafaf.github.io/ReadTheDocksBase/Setup/#instalando-dependencias)

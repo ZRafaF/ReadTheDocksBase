@@ -38,7 +38,7 @@ Alguma das funções estendidas também funcionam com o MkDocs, ver [Sintaxe est
 ` ``` ` Código vai aqui ` ``` `
 
 ```
-//Múltiplas linhas de código
+// Múltiplas linhas de código
 
 void max()
 {
