@@ -77,4 +77,4 @@ markdown_extensions:
 
 ## Utilização
 
-Visite a tab [Como usar](./Como_usar/Como_usar.md) para instruções de **utilização** e ***deployment***.
+Visite a tab [Como usar](/docs/Como_usar/Como_usar.md) para instruções de **utilização** e ***deployment***.

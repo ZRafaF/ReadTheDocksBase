@@ -115,7 +115,7 @@ A documentação oficial pode ser encontrada [aqui](https://www.mkdocs.org/user-
 * Exemplo de link para outra página da documentação `[Documentação utilizando MkDocs](../index.md)` [Documentação utilizando MkDocs](../index.md)
 
 
-* Exemplo de link para outro item `[sintaxe-básica](./Utilização.md#sintaxe-basica)` [sintaxe-básica](./Utilização.md#sintaxe-basica)
+* Exemplo de link para outro item `[sintaxe-básica](./Utilizacao.md#sintaxe-basica)` [sintaxe-básica](./Utilizacao.md#sintaxe-basica)
 > Importante notar que a URL não deve conter acentuação
 ___
 
