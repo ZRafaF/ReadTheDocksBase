@@ -1,3 +1,31 @@
+# Setup
+
+## Recomendações
+
+É recomendado criar um `venv` para este projeto
+`python -m venv venv`
+
+e para ativar
+`venv\Scripts\activate`
+
+## Instalando dependências
+
+1. MkDocs
+    `pip install MkDocs`
+
+2. Plugin
+    Siga as instruções em [Plugins](./Plugins.md) para a instalação dos plugins necessários.
+
+3. Tema
+    Siga as instruções em [Temas](./Temas.md) para a instalação do tema utilizado.
+
+## Configuração
+
+Para a configuração mais recente por favor veja o *commit* mais atual [aqui](https://github.com/ZRafaF/ReadTheDocksBase/blob/main/mkdocs.yml)
+
+ou copie o seguinte código possivelmente **DEFASADO**
+
+``` yaml
 site_name: Projeto base
 
 repo_url: https://github.com/ZRafaF/ReadTheDocksBase
@@ -14,7 +42,6 @@ theme:
     features:
         - navigation.sections
         - navigation.tabs
-        # - navigation.tabs.sticky      Faz com que a navigation tab esteja sempre visivel
         - navigation.top
         - navigation.tracking
         - navigation.path
@@ -24,10 +51,6 @@ theme:
         - search.suggest
         - toc.follow
         - content.code.copy
-
-
-#docs_dir: 'docsSrc'
-#site_dir: 'docs'
 
 plugins:
     - search:
@@ -50,3 +73,8 @@ markdown_extensions:
     - pymdownx.keys
     - pymdownx.mark
     - pymdownx.tilde
+```
+
+## Utilização
+
+Visite a tab [Como usar](./Como%20usar/Como%20usar.md) para instruções de **utilização** e ***deployment***.
