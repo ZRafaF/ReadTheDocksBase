@@ -35,7 +35,7 @@ Por padrão o MkDocs inclui os seguinte temas:
 Temas de terceiros podem ser instalados [aqui](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
 
 Para escolher um tema altere o arquivo `mkdocs.yml`
-```yml
+```yaml
 theme:
     name: mkdocs
     nav_style: dark

@@ -7,8 +7,8 @@ theme:
 
     palette:
         scheme: slate
-        primary: indigo
-        accent: indigo
+        primary: pink
+        accent: pink
 
     locale: pt_BR
     features:
@@ -50,3 +50,16 @@ markdown_extensions:
     - pymdownx.keys
     - pymdownx.mark
     - pymdownx.tilde
+
+nav:
+    - Home: index.md
+    - Setup:
+        - Setup/Setup.md
+        - Setup/Plugins.md
+        - Setup/Temas.md
+    - Como usar:
+        - Como_usar/Como_usar.md
+        - Como_usar/Deploying.md
+        - Como_usar/Documentação_utilizando_MkDocs.md
+        - Como_usar/Tema_MkDocs-Material.md
+        - Como_usar/Utilizacao.md
