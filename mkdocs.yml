@@ -42,7 +42,7 @@ plugins:
 markdown_extensions:
     - pymdownx.highlight:
         anchor_linenums: true
-        use_pygments: true
+        use_pygments: true      # Renderiza todos os códigos durante a build ao inves de no runtime
         auto_title: true
 
     - pymdownx.inlinehilite

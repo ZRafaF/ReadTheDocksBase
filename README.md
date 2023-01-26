@@ -1,4 +1,8 @@
-## Link para o site [https://zrafaf.github.io/ReadTheDocksBase/](https://zrafaf.github.io/ReadTheDocksBase/)
+# Link para o site [https://zrafaf.github.io/ReadTheDocksBase/](https://zrafaf.github.io/ReadTheDocksBase/)
+
+* ## [Baixar PDF gerado automaticamente](https://github.com/ZRafaF/ReadTheDocksBase/raw/gh-pages/pdf/document.pdf)
+
+___
 
 Para documentação completa visitar [mkdocs.org](https://www.mkdocs.org).
 
