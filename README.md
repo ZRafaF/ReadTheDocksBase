@@ -19,4 +19,4 @@ Este projeto faz uso das seguintes dependências
 2. [mkdocs-pdf-export-plugin](https://github.com/zhaoterryy/mkdocs-pdf-export-plugin) Para gerar um pdf de cada página.
 3. [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) Tema de terceiro.
 
-Para mais informações sobre instalação ver [documentação](https://zrafaf.github.io/ReadTheDocksBase/Setup/#instalando-dependencias)
+Para mais informações sobre instalação ver [documentação](https://zrafaf.github.io/ReadTheDocksBase/Setup/Setup/)

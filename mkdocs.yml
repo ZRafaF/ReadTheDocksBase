@@ -34,6 +34,9 @@ plugins:
         separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
     - with-pdf:
         author: Rafael Farias
+        toc_title: Tabela de conteúdos
+        #two_columns_level: 3
+        #custom_template_path: docs/styles.scss
     - pdf-export
 
 markdown_extensions:
