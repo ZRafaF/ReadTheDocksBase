@@ -35,6 +35,7 @@ plugins:
     - with-pdf:
         author: Rafael Farias
         toc_title: Tabela de conteúdos
+        enabled_if_env: ENABLE_PDF_EXPORT # Apenas irá gerar um novo pdf caso seja uma build
         #two_columns_level: 3
         #custom_template_path: docs/styles.scss
     - pdf-export
@@ -47,6 +48,8 @@ markdown_extensions:
 
     - pymdownx.inlinehilite
     - pymdownx.snippets
+    - admonition
+    - pymdownx.details
     - pymdownx.superfences
     - pymdownx.critic
     - pymdownx.caret
