@@ -17,7 +17,7 @@ ___
 
 :simple-linux: Linux
 
-`source venv\Scripts\activate`
+`source venv\bin\activate`
 
 ___
 
