@@ -6,7 +6,20 @@
 `python -m venv venv`
 
 e para ativar
+
+___
+
+:simple-windows: Windows
+
 `venv\Scripts\activate`
+    
+___
+
+:simple-linux: Linux
+
+`source venv\Scripts\activate`
+
+___
 
 ## Instalando dependências
 
