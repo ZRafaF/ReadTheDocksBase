@@ -12,7 +12,7 @@ theme:
 
     locale: pt_BR
     features:
-        - navigation.sections
+        # - navigation.sections
         - navigation.tabs
         # - navigation.tabs.sticky      Faz com que a navigation tab esteja sempre visivel
         - navigation.top
@@ -65,12 +65,14 @@ markdown_extensions:
 nav:
     - Home: index.md
     - Setup:
-        - Setup/Setup.md
+        - Setup/index.md
         - Setup/Plugins.md
         - Setup/Temas.md
     - Como usar:
-        - Como_usar/Como_usar.md
+        - Como_usar/index.md
         - Como_usar/Deploying.md
         - Como_usar/Documentação_utilizando_MkDocs.md
         - Como_usar/Tema_MkDocs-Material.md
         - Como_usar/Utilizacao.md
+        - Sub Pasta:
+            - Como_usar/subPasta/index.md
