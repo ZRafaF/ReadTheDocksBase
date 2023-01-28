@@ -11,6 +11,8 @@ theme:
         accent: pink
 
     locale: pt_BR
+    language: pt-BR                     # lingua do mkdocs-material
+
     features:
         - navigation.sections
         - navigation.tabs
@@ -19,6 +21,7 @@ theme:
         - navigation.tracking
         - navigation.path
         - navigation.indexes
+        - navigation.footer
         - search.highlight
         - search.share
         - search.suggest
@@ -68,6 +71,8 @@ markdown_extensions:
     - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
+    - toc:
+        permalink: true
 
 nav:
     - Home: index.md
