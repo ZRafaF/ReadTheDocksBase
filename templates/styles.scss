@@ -16,3 +16,11 @@
 
 
 }
+
+// Retira os icones incorretos dos admonition
+@media print {
+    .md-typeset .admonition-title::before,
+    .md-typeset summary::before {
+        visibility: hidden;
+    }
+}
