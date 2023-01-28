@@ -10,6 +10,6 @@ Esta documentação gera automaticamente um {==arquivo em PDF==} de seu conteúd
 
 Utilize as ***Tabs*** a cima para navegar pelo site.
 
-Visite a tab [Setup](./Setup/Setup.md) para fazer a **instalação** e **configuração** inicial.
+Visite a tab [Setup](./Setup/index.md) para fazer a **instalação** e **configuração** inicial.
 
-Visite a tab [Como usar](./Como_usar/Como_usar.md) para instruções de **utilização** e ***deployment***.
+Visite a tab [Como usar](./Como_usar/index.md) para instruções de **utilização** e ***deployment***.

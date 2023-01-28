@@ -12,7 +12,7 @@ theme:
 
     locale: pt_BR
     features:
-        # - navigation.sections
+        - navigation.sections
         - navigation.tabs
         # - navigation.tabs.sticky      Faz com que a navigation tab esteja sempre visivel
         - navigation.top
@@ -25,10 +25,17 @@ theme:
         - toc.follow
         - content.code.copy
         # - content.tabs.link           # Para criar Tabs de código
-
+    icon:
+        admonition:
+            admonition-windows: simple/windows
+            admonition-linux: simple/linux
+            admonition-custom: material/bicycle
 
 #docs_dir: 'docsSrc'
 #site_dir: 'docs'
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
     - search:
@@ -74,5 +81,3 @@ nav:
         - Como_usar/Documentação_utilizando_MkDocs.md
         - Como_usar/Tema_MkDocs-Material.md
         - Como_usar/Utilizacao.md
-        - Sub Pasta:
-            - Como_usar/subPasta/index.md

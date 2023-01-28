@@ -11,13 +11,13 @@ ___
 
 :simple-windows: Windows
 
-`venv\Scripts\activate`
+`venv/Scripts/activate`
     
 ___
 
 :simple-linux: Linux
 
-`source venv\bin\activate`
+`source venv/bin/activate`
 
 ___
 
