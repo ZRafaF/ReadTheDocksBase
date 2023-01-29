@@ -1,0 +1,64 @@
+/* O código a seguir ativa o template legacy dos admonitions*/
+/*
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
+*/
+.md-typeset .admonition.admonition-windows,
+.md-typeset details.admonition-windows {
+    border-color: rgb(43, 71, 155);
+}
+
+.md-typeset .admonition-windows>.admonition-title,
+.md-typeset .admonition-windows>summary {
+    background-color: rgba(43, 71, 155, 0.1);
+}
+
+.md-typeset .admonition-windows>.admonition-title::before,
+.md-typeset .admonition-windows>summary::before {
+    background-color: rgb(43, 71, 155);
+    -webkit-mask-image: var(--md-admonition-icon--admonition-windows);
+    mask-image: var(--md-admonition-icon--admonition-windows);
+}
+
+
+
+.md-typeset .admonition.admonition-linux,
+.md-typeset details.admonition-linux {
+    border-color: rgb(118, 43, 155);
+}
+
+.md-typeset .admonition-linux>.admonition-title,
+.md-typeset .admonition-linux>summary {
+    background-color: rgba(118, 43, 155, 0.1);
+}
+
+    
+.md-typeset .admonition-linux>.admonition-title::before,
+.md-typeset .admonition-linux>summary::before {
+    background-color: rgb(118, 43, 155);
+    -webkit-mask-image: var(--md-admonition-icon--admonition-linux);
+    mask-image: var(--md-admonition-icon--admonition-linux);
+}
+
+
+
+
+.md-typeset .admonition.admonition-custom,
+.md-typeset details.admonition-custom {
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .admonition-custom > .admonition-title,
+.md-typeset .admonition-custom > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+.md-typeset .admonition-custom > .admonition-title::before,
+.md-typeset .admonition-custom > summary::before {
+  background-color: rgb(43, 155, 70);
+  -webkit-mask-image: var(--md-admonition-icon--admonition-custom);
+          mask-image: var(--md-admonition-icon--admonition-custom);
+}
+
+
