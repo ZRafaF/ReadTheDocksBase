@@ -33,6 +33,8 @@ permissions:
   contents: write
 jobs:
   deploy:
+    env:
+        ENABLE_PDF_EXPORT: 1
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -48,6 +50,10 @@ jobs:
       - run: pip install mkdocs-pdf-export-plugin
       - run: mkdocs gh-deploy --force
 ```
+
+!!! note
+
+  Observe a utilização da *environment variable* `ENABLE_PDF_EXPORT`, ela define se os plugins `with-pdf` e `pdf-export` deverão gerar os arquivos de PDF.
 
 ## Manualmente
 
